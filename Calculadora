@@ -1,0 +1,126 @@
+Conversation opened. 1 read message.
+
+Skip to content
+Using Gmail with screen readers
+in:sent 
+Enable desktop notifications for Gmail.
+   OK  No thanks
+5 of 76
+Aula lab02 calculadora
+
+isabela soares <isabelayaredsoares@gmail.com>
+10:45 AM (8 hours ago)
+to isayared2
+
+package AULA_02;
+
+
+
+public class Calculadora {
+
+	public double v01;
+
+	public double v02;
+
+	public double res01;
+
+	public double vAux;
+
+	
+
+	public void inserirV1(double valor) {
+
+		v01=valor;
+
+	}
+
+	public void inserirV2(double valor) {
+
+		v02=valor;
+
+	}
+
+	public void trocarValores() {
+
+		double temporaria =v01;
+
+		v01=v02;
+
+		v02=temporaria;
+
+	}
+
+	public void guardarRes() {
+
+		vAux = res01;
+
+	}
+
+	public void usarR1() {
+
+		v01=res01;
+
+	}
+
+	public void usarAUX() {
+
+		v01=vAux;
+
+	}
+
+	public void somarV1V2() {
+
+		res01=v01+v02;
+
+	}
+
+	public void multiplicarV1V2() {
+
+		res01=v01*v02;
+
+	}
+
+	public void subtrairv1V2() {
+
+		res01=v01-v02;
+
+	}
+
+	public void dividirV1V2() {
+
+		if(v02 != 0) {
+
+			res01=v01/v02;
+
+		}else {
+
+			System.out.println("Erro: Divisão por zero!");
+
+		}
+
+	}
+
+	public void mostrarRes() {
+
+		System.out.println("Resultado atual ="+res01);
+
+	}
+
+	public void zerarAtributos() {
+
+		v01=0;
+
+		v02=0;
+
+		res01=0;
+
+		vAux=0;
+
+	}
+
+	
+
+	
+
+}
+
