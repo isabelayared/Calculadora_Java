@@ -1,0 +1,63 @@
+package AULA_02;
+
+
+
+public class Calculos {
+
+    public static void main(String[] args) {
+
+        Calculadora calculadora = new Calculadora();
+
+
+
+        calculadora.inserirV1(52);
+
+        calculadora.inserirV2(47);
+
+        calculadora.somarV1V2(); 
+
+        calculadora.subtrairV1V2(); 
+
+        calculadora.multiplicarV1V2(); 
+
+        calculadora.dividirV1V2(); 
+
+        calculadora.mostrarRes(); 
+
+
+
+        calculadora.inserirV1(3725);
+
+        calculadora.inserirV2(27);
+
+        calculadora.dividirV1V2(); 
+
+        calculadora.guardarRes();
+
+
+
+        calculadora.inserirV1(4382);
+
+        calculadora.inserirV2(19);
+
+        calculadora.dividirV1V2();
+
+        calculadora.somarV1V2();
+
+
+
+        calculadora.inserirV1(37);
+
+        calculadora.inserirV2(8);
+
+        calculadora.dividirV1V2();
+
+        calculadora.subtrairV1V2();
+
+
+
+        calculadora.mostrarRes(); 
+
+    }
+
+}
